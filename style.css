@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,900&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)), url(/imgs/screen-beautiful-and-deadly-en.jpg) 50% 50%;
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  /* display: grid;
+  place-content: center;
+  height: 100vh; */
+  color: #fff;
+}
+
+.title-style {
+  text-transform: uppercase;
+  font-size: 80px;
+  margin: 20px;
+  letter-spacing: 10px;
+  color: #fcee0a;
+}
+
+.text-add {
+  color: red;
+  font-size: 20px;
+  font-weight: 300;
+  margin-left: 10px;
+}
+.container h2 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.count {
+  margin: 40px 0;
+}
+
+.countd {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+  border: 2px solid;
+  margin: 0 30px;
+  font-size: 12px;
+  overflow: hidden;
+}
+
+.countd span {
+  display: block;
+  font-size: 26px;
+  margin-top: 14px;
+}
